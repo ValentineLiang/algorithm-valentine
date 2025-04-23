@@ -1,9 +1,45 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="26.2.14">
-  <diagram name="第 1 页" id="wElm012vktGGRz2enD13">
-    <mxGraphModel>
+  <diagram name="DevOps闭环流程图" id="wElm012vktGGRz2enD13">
+    <mxGraphModel dx="1072" dy="562" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="KTAFTQb8Uya4SnJJjSSn-1" value="需求管理&lt;div&gt;(Plan)&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#F9F871;strokeColor=#666;" vertex="1" parent="1">
+          <mxGeometry x="270" y="60" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="KTAFTQb8Uya4SnJJjSSn-2" value="开发协作&lt;div&gt;(Code&amp;amp;Review)&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#A0E7E5;strokeColor=#666;" vertex="1" parent="1">
+          <mxGeometry x="470" y="160" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="KTAFTQb8Uya4SnJJjSSn-3" value="测试协作&lt;div&gt;(Test)&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#B4F8C8;strokeColor=#666;" vertex="1" parent="1">
+          <mxGeometry x="470" y="280" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="KTAFTQb8Uya4SnJJjSSn-4" value="持续集成部署&lt;div&gt;(Build &amp;amp; Deploy)&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FDC2F2;strokeColor=#666;" vertex="1" parent="1">
+          <mxGeometry x="270" y="380" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="KTAFTQb8Uya4SnJJjSSn-5" value="运维监控&lt;div&gt;(Operate)&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FFAEBC;strokeColor=#666;" vertex="1" parent="1">
+          <mxGeometry x="70" y="280" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="KTAFTQb8Uya4SnJJjSSn-6" value="反馈分析&lt;div&gt;(Feedback)&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#BDB2FF;strokeColor=#666;" vertex="1" parent="1">
+          <mxGeometry x="70" y="160" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="KTAFTQb8Uya4SnJJjSSn-7" style="endArrow=block;html=1;strokeColor=#555;" edge="1" parent="1" source="KTAFTQb8Uya4SnJJjSSn-1" target="KTAFTQb8Uya4SnJJjSSn-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KTAFTQb8Uya4SnJJjSSn-8" style="endArrow=block;html=1;strokeColor=#555;" edge="1" parent="1" source="KTAFTQb8Uya4SnJJjSSn-2" target="KTAFTQb8Uya4SnJJjSSn-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KTAFTQb8Uya4SnJJjSSn-9" style="endArrow=block;html=1;strokeColor=#555;" edge="1" parent="1" source="KTAFTQb8Uya4SnJJjSSn-3" target="KTAFTQb8Uya4SnJJjSSn-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KTAFTQb8Uya4SnJJjSSn-10" style="endArrow=block;html=1;strokeColor=#555;" edge="1" parent="1" source="KTAFTQb8Uya4SnJJjSSn-4" target="KTAFTQb8Uya4SnJJjSSn-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KTAFTQb8Uya4SnJJjSSn-11" style="endArrow=block;html=1;strokeColor=#555;" edge="1" parent="1" source="KTAFTQb8Uya4SnJJjSSn-5" target="KTAFTQb8Uya4SnJJjSSn-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KTAFTQb8Uya4SnJJjSSn-12" style="endArrow=block;html=1;strokeColor=#555;" edge="1" parent="1" source="KTAFTQb8Uya4SnJJjSSn-6" target="KTAFTQb8Uya4SnJJjSSn-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
